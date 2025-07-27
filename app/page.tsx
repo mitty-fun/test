@@ -20,6 +20,63 @@ export default function Home() {
           </div>
         </section>
 
+        <section className={styles.products}>
+          <h2>精選馬卡龍</h2>
+          <div className={styles.productGrid}>
+            <div className={styles.productCard}>
+              <div className={styles.productImage}>
+                <Image
+                  src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300&h=300&fit=crop&crop=center"
+                  alt="經典香草馬卡龍"
+                  width={300}
+                  height={300}
+                />
+              </div>
+              <h3>經典香草馬卡龍</h3>
+              <p>法式經典香草風味，細膩甜美</p>
+            </div>
+            
+            <div className={styles.productCard}>
+              <div className={styles.productImage}>
+                <Image
+                  src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=300&h=300&fit=crop&crop=center"
+                  alt="草莓玫瑰馬卡龍"
+                  width={300}
+                  height={300}
+                />
+              </div>
+              <h3>草莓玫瑰馬卡龍</h3>
+              <p>浪漫粉色，草莓與玫瑰的完美結合</p>
+            </div>
+            
+            <div className={styles.productCard}>
+              <div className={styles.productImage}>
+                <Image
+                  src="https://images.unsplash.com/photo-1571115764595-644a1f56a55c?w=300&h=300&fit=crop&crop=center"
+                  alt="抹茶白巧克力馬卡龍"
+                  width={300}
+                  height={300}
+                />
+              </div>
+              <h3>抹茶白巧克力馬卡龍</h3>
+              <p>日式抹茶搭配濃郁白巧克力</p>
+            </div>
+            
+            <div className={styles.productCard}>
+              <div className={styles.productImage}>
+                <Image
+                  src="https://images.unsplash.com/photo-1612203985729-70726954388c?w=300&h=300&fit=crop&crop=center"
+                  alt="檸檬蜂蜜馬卡龍"
+                  width={300}
+                  height={300}
+                />
+              </div>
+              <h3>檸檬蜂蜜馬卡龍</h3>
+              <p>清新檸檬香氣與天然蜂蜜甜味</p>
+            </div>
+          </div>
+        </section>
+
         <section className={styles.contact}>
           <h2>聯絡我們</h2>
           <div className={styles.contactInfo}>
